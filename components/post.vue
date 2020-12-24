@@ -1,5 +1,5 @@
 <template>
-  <article class="rounded-md border bg-white">
+  <article class="rounded-md border bg-white overflow-hidden">
     <img v-if="image" :src="post.image" />
     <div class="p-4">
       <div class="flex">
